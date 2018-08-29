@@ -9,7 +9,7 @@ sudo apt install unzip -y
 sudo apt -y upgrade --force-yes -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold"
 sudo apt -y autoremove
 sudo apt update
-mkdir downloads
+mkdir ~/downloads
 cd ~/downloads/
 wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
 sudo dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
