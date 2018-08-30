@@ -25,10 +25,10 @@ bash Anaconda3-5.0.1-Linux-x86_64.sh -b
 cd
 git clone https://github.com/fastai/fastai.git
 cd fastai/
-echo 'export PATH=~/anaconda3/bin:$PATH' >> ~/.bashrc
+echo "export PATH=~/anaconda3/bin:$PATH" >> ~/.bashrc
 source ~/.bashrc
 conda env update
-echo 'source activate fastai' >> ~/.bashrc
+echo "source activate fastai" >> ~/.bashrc
 source ~/.bashrc
 cd ..
 mkdir data
